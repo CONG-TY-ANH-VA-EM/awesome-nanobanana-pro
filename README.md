@@ -467,8 +467,7 @@ Turn this photo of my [cat/dog] into a funny hand-drawn WeChat sticker . Style :
 
 ## 11. Resources
 
-- [Official Model Docs](https://github.com/) - Documentation for the underlying models.
-- [Prompt Engineering Guide](https://github.com/) - Learn how to structure your prompts effectively.
+- [Official Prompting Guide](https://blog.google/products/gemini/prompting-tips-nano-banana-pro/) - Learn how to structure your prompts effectively.
 
 ## 12. Contributing
 
