@@ -1,4 +1,4 @@
-[Last updated on 2025.11.25]
+[Last updated on 2025.11.28: Added memory palace learning, googly eyes effects, cartoon infographics and weather card generator prompts]
 # Awesome Nano Banana Pro 🍌
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-nanobanana-pro?style=social)](https://github.com/ZeroLu/awesome-nanobanana-pro/stargazers)
@@ -27,8 +27,9 @@ Similar repo: [Awesome Gemini3](https://github.com/ZeroLu/awesome-gemini-ai/)
 8. [Social Media & Marketing](#8-social-media--marketing)
 9. [Daily Life & Translation](#9-daily-life--translation)
 10. [Social Networking & Avatars](#10-social-networking--avatars)
-11. [Resources](#11-resources)
-12. [Contributing](#12-contributing)
+11. [New Additions](#11-new-additions)
+12. [Resources](#12-resources)
+13. [Contributing](#13-contributing)
 
 ---
 
@@ -233,7 +234,6 @@ rare.jpg
 
 ### 2.7. Multi-Subject Compositing
 *Combines multiple input portraits into a single cohesive group photo with a specific expression.*
-
 | Input References | Generated Output |
 | :--- | :--- |
 | <img width="100" src="https://replicate.delivery/pbxt/O61OKYNMCfhPTvuTf6SdRVwNlIpoKMeQPQw5WygFtvDwhWgh/guy.webp" /> <img width="100" src="https://replicate.delivery/pbxt/O61OK9ETMHHJO5m0qlCkGLhr5lcmbZ08U42C8PWLd4uszDQr/bob-ross.png" /> <br> <img width="100" src="https://replicate.delivery/pbxt/O61OKPSxpwgO83SLFGenwEcGNdEAirtw26cIfvuIxz8FeTvf/jennai.jpg" /> <img width="100" src="https://replicate.delivery/pbxt/O61OKGAI2lrcNy9I4tpUB4RPbsBUjcaxAjYjVlxRBHc2aIgK/01.webp" /> <br><img width="100" src="https://replicate.delivery/pbxt/O61S8cEIMPpMwEOkXnrroou1JkzoVFa0JJuhXHt05hBQ8AUq/replicate-prediction-50s6t1510hrma0ct2v5vj7jk2m.jpg" /> | <img width="500" alt="Image" src="https://github.com/user-attachments/assets/54e2a2eb-1ab4-4f2b-86a2-7a59856e615f" /> |
@@ -465,11 +465,87 @@ Turn this photo of my [cat/dog] into a funny hand-drawn WeChat sticker . Style :
 
 ---
 
-## 11. Resources
+## 11. New Additions
+
+### 11.1. Memory Palace Learning Technique
+*A technique to help learning English vocabulary using a detailed pet store scene with labeled words.*
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6iAvNSaoAAsFc2?format=jpg&name=medium" />
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6iAy7VbYAAIKCT?format=jpg&name=900x900" />
+
+**Prompt:**
+```text
+Create a detailed {{pet store}} scene with English vocabulary labels for all objects. The format for labeling is: Line 1: English word, Line 2: IPA pronunciation, Line 3: Chinese translation
+```
+*Source: [@lxfater](https://x.com/lxfater/status/1992984573551276147?s=20)*
+
+### 11.2. Googly Eyes and Stick Hands
+*Add illustrated googly eyes and stick hands on the (object/animal/ your bff) in an exaggerated comedic pose*
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6rh6vQbAAAWLvz?format=jpg&name=medium" />
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6rh6zcaIAAJsYw?format=jpg&name=900x900" />
+
+**Prompt:**
+```text
+Add illustrated googly eyes and stick hands on the (object/animal/ your bff) in an exaggerated comedic pose
+```
+*Source: [@madpencil_](https://x.com/madpencil_/status/1993654188723851585?s=20)*
+
+### 11.3. Cartoon-Style Infographic
+*Convert your article/content to a cartoon-style infographic*
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6qTUPAXQAAMM8q?format=jpg&name=medium" />
+
+**Prompt:**
+```text
+--- Prompt ---
+
+Please create a cartoon-style infographic based on the provided content, following these guidelines:
+
+- Hand-drawn illustration style, landscape orientation (16:9 aspect ratio).
+
+- Include a small number of simple cartoon elements, icons, or famous personalities to enhance visual interest and memorability.
+
+- If the content includes sensitive or copyrighted figures, replace them with visually similar alternatives; do not refuse to generate the illustration.
+
+- All imagery and text must strictly adhere to a hand-drawn style; avoid realistic visual elements.
+
+- Keep information concise, highlighting keywords and core concepts. Utilize ample whitespace to clearly emphasize key points.
+
+- Unless otherwise specified, use the same language as the provided content.
+
+Please use nano banana pro to create the illustration based on the input provided.
+```
+*Source: [@dotey](https://x.com/dotey/status/1993567848564686926?s=20)*
+
+### 11.4. Weather Card Generator
+*Dynamically generate a current weather card based on a given city name*
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6smrfEWUAAoCX8?format=jpg&name=4096x4096" />
+<img width="500" alt="Image" src="https://pbs.twimg.com/media/G6smZsqWcAETTUC?format=jpg&name=4096x4096" />
+
+**Prompt:**
+```text
+--- prompt ---
+
+Present a clear, 45° top-down view of a vertical (9:16) isometric miniature 3D cartoon scene, highlighting iconic landmarks centered in the composition to showcase precise and delicate modeling.
+
+The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting and shadow effects. Weather elements are creatively integrated into the urban architecture, establishing a dynamic interaction between the city's landscape and atmospheric conditions, creating an immersive weather ambiance.
+
+Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background that highlights the main content. The overall visual style is fresh and soothing.
+
+Display a prominent weather icon at the top-center, with the date (x-small text) and temperature range (medium text) beneath it. The city name (large text) is positioned directly above the weather icon. The weather information has no background and can subtly overlap with the buildings.
+
+The text should match the input city's native language.
+Please retrieve current weather conditions for the specified city before rendering.
+
+City name:【New York】
+```
+*Source: [@dotey](https://x.com/dotey/status/1993729800922341810?s=20)*
+
+---
+
+## 12. Resources
 
 - [Official Prompting Guide](https://blog.google/products/gemini/prompting-tips-nano-banana-pro/) - Learn how to structure your prompts effectively.
 
-## 12. Contributing
+## 13. Contributing
 
 Contributions are welcome! If you have an **awesome Nano Banana prompt**, please submit a Pull Request.
 
@@ -480,7 +556,7 @@ Contributions are welcome! If you have an **awesome Nano Banana prompt**, please
 
 Please ensure you include the **Source** (link to the original creator) to give credit where it is due.
 
-## 13. Star History
+## 14. Star History
 
 <a href="https://star-history.com/#ZeroLu/awesome-nanbanana-pro&Date">
  <picture>
